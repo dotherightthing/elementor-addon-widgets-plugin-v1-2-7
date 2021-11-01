@@ -2,7 +2,7 @@
 
 ## WordPress plugin
 
-This is a copy of the code downloaded from the WordPress plugin repository and uploaded herr for patching. This plugin is no longer available for download:
+This is a copy of the code downloaded from the WordPress plugin repository and uploaded here for patching. This plugin is no longer available for download:
 
 > This plugin has been closed as of August 31, 2020 and is not available for download. This closure is permanent. Reason: Author Request.
 >
