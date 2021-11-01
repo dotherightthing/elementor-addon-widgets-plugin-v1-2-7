@@ -355,7 +355,7 @@ class Services extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'selector' => '{{WRAPPER}} .obfx-service-title',
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 			]
 		);
 
@@ -378,8 +378,8 @@ class Services extends \Elementor\Widget_Base {
 					'{{WRAPPER}} .obfx-service-text' => 'color: {{VALUE}};',
 				],
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_3,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_3,
 				],
 			]
 		);
@@ -389,7 +389,7 @@ class Services extends \Elementor\Widget_Base {
 			[
 				'name' => 'description_typography',
 				'selector' => '{{WRAPPER}} .obfx-service-text',
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_3,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_3,
 			]
 		);
 
