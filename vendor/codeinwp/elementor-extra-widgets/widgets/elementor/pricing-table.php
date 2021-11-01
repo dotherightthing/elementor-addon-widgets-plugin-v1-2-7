@@ -406,8 +406,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Title Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#464959',
 				'selectors' => [
@@ -420,7 +420,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'plan_title_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-pricing-table-title',
 			]
 		);
@@ -431,8 +431,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Subtitle Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#60647d',
 				'selectors' => [
@@ -445,7 +445,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'plan_subtitle_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-pricing-table-subtitle',
 			]
 		);
@@ -511,8 +511,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'label'     => __( 'Currency Color', 'elementor-addon-widgets' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#60647d',
 				'selectors' => [
@@ -525,7 +525,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'currency_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-price-currency',
 			]
 		);
@@ -545,8 +545,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'label'     => __( 'Price Color', 'elementor-addon-widgets' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#60647d',
 				'selectors' => [
@@ -559,7 +559,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'price_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-price',
 			]
 		);
@@ -579,8 +579,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'label'     => __( 'Period Color', 'elementor-addon-widgets' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#60647d',
 				'selectors' => [
@@ -593,7 +593,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'price_sub_text_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-pricing-period',
 			]
 		);
@@ -649,8 +649,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Accented Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#60647d',
 				'selectors' => [
@@ -663,7 +663,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'features_accented_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-pricing-table-accented',
 			]
 		);
@@ -683,8 +683,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'label'     => __( 'Features Color', 'elementor-addon-widgets' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#b1b3c0',
 				'selectors' => [
@@ -697,7 +697,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			\Elementor\Group_Control_Typography::get_type(),
 			[
 				'name'     => 'features_features_typography',
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .obfx-pricing-table-feature',
 			]
 		);
@@ -717,8 +717,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'label'     => __( 'Icon Color', 'elementor-addon-widgets' ),
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#b1b3c0',
 				'selectors' => [
@@ -775,7 +775,7 @@ class Pricing_Table extends \Elementor\Widget_Base {
 			[
 				'name'     => 'typography',
 				'label'    => __( 'Typography', 'elementor-addon-widgets' ),
-				'scheme'   => \Elementor\Scheme_Typography::TYPOGRAPHY_4,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_4,
 				'selector' => '{{WRAPPER}} .obfx-pricing-table-button-wrapper',
 			]
 		);
@@ -829,8 +829,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Text Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#fff',
 				'selectors' => [
@@ -844,8 +844,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Background Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#93c64f',
 				'selectors' => [
@@ -878,8 +878,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Text Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#fff',
 				'selectors' => [
@@ -893,8 +893,8 @@ class Pricing_Table extends \Elementor\Widget_Base {
 				'type'      => \Elementor\Controls_Manager::COLOR,
 				'label'     => __( 'Background Color', 'elementor-addon-widgets' ),
 				'scheme'    => [
-					'type'  => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#74c600',
 				'selectors' => [
