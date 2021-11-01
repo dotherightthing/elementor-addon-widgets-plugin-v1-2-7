@@ -23,11 +23,13 @@ Version 1.2.7 of this plugin required the following versions of these dependenci
 
 A simple update of `composer.json` as above is not possible as it results in changes in the versions of sub-dependencies. This could introduce side-effects which would be difficult to troubleshoot.
 
+Therefore these dependencies have been baked into this repository at the listed versions.
+
 ## Patches
 
 This plugin snapshot has been uploaded in order to patch incompatibilities with Elementor 3.4.7, arising from changes in the namespacing.
 
-This affects the following files:
+This affects the following files which have been patched here:
 
 1. elementor-extra-widgets/widgets/elementor/posts-grid.php
 1. elementor-extra-widgets/widgets/elementor/pricing-table.php
